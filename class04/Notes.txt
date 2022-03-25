@@ -1,0 +1,58 @@
+Class 04
+Anytime we see an attribute has a numeric value inside the id is not reliable most likely will change in the future
+CSS selector:
+what CSS stands for (Cascading style sheet)
+
+It is another way of locating elements on the web page
+
+Syntax:
+ tagname[attributes = 'attributes value']
+ Example: button[type = 'submit']
+
+ Css does not give an opportunity to locate the element by its text
+
+ Shortcuts for CSS:
+ Shortcut for Classname --> "."
+
+ Syntax: tagname.classNameValue
+         input.button
+
+  Shortcut for ID --> "#"
+  Syntax: tagname#IDValue
+          Example: input#twotabsearchtextbox
+
+  contains() method in css:
+  * symbol represents contains method
+  tagname[attributes *= 'attributes value']
+  Example: input[placeholder *= 'phone']
+
+  starts-with method in css:
+  ^(Circumflex) symbol represents starts with method
+  tagname[attribute ^= 'starting attribute value']
+  Example: input[type^='pass']
+
+ ends-with method in css:
+ $ symbol represents ends-with method in css
+ tagname[attribute $= 'ending attributte value']
+ Example:img[src $= 'syntax.png']
+
+ Difference between CSS and XPath
+
+--> CSS cannot locate elements by text whereas xpath can
+--> no ends-with method in Xpath
+--> CSS is faster than xpath(finding elements)
+-->CSS has shortcuts
+-->no advance CSS
+-->CSS has more simple syntax thanXpath
+
+WebElement Commands:
+
+Consist of several methods where we can perform an action and get the element state on the webpage
+
+isEnable() -->boolean value
+isDisplayed()--> boolean value
+isSelected() --> boolean value
+clear() --> void
+getText() -->String Value
+getAttribute -->String value
+submit() --> void
